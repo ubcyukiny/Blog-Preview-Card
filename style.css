@@ -1,0 +1,94 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Figtree Extra Bold';
+  font-weight: 800;
+  src: url('./assets/fonts/static/Figtree-ExtraBold.ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Figtree Medium';
+  font-weight: 500;
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+
+:root {
+  --yellow: #f4d04e;
+  --gray950: #111111;
+  --gray500: #6b6b6b;
+  --white: #ffffff;
+
+  --spacing200: 16px;
+  --spacing150: 12px;
+  --spacing100: 8px;
+  --spacing50: 4px;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing100);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+body {
+    background-color: var(--yellow);
+    font-family: 'Figtree Medium', sans-serif;
+    line-height: 150%;
+    letter-spacing: 0px;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Figtree Extra Bold';
+}
+
+.text2 {
+    font-size: 16px;
+    font-family: 'Figtree Medium';
+  }
+
+.text3 {
+    font-size: 14px;
+    font-family: 'Figtree Medium';
+  }
+
+.text3-bold {
+    font-size: 14px;
+    font-family: 'Figtree Extra Bold';
+}
+
+.blogCard {
+  background-color: var(--white);
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  border: 1px solid var(--gray950);
+  box-shadow: 8px 8px 0 #111111;
+}
+
+/* @media only screen and (max-width: 425px) {
+  .blogCard {
+    width: 327px;
+    height: 501px;
+    /* todo */
+  }
+} 
+*/
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
