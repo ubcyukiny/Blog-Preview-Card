@@ -130,14 +130,6 @@ h1:hover {
   line-height: 150%;
 }
 
-/* @media only screen and (max-width: 425px) {
-  .blogCard {
-    width: 327px;
-    height: 501px;
-    /* todo */
-/* }
-}  */
-
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -146,3 +138,38 @@ h1:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 450px) {
+  .blogCard {
+    width: 278px;
+    height: 452px;
+    /* todo */
+  }
+
+  .content {
+    width: 279px;
+  }
+
+  .articlePicture {
+    width: 279px;
+  }
+
+  .category {
+    font-size: 12px;
+    width: 73px;
+    height: 26px;
+  }
+
+  .publishDate {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+} 
